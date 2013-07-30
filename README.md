@@ -1,3 +1,4 @@
+## Requirement
 
 We recommend candidates limit the time spent on this exercise to around 3 hours, but you will not be penalised for spending longer if you need to do so. You are also not obliged to complete the full exercise.
 
@@ -15,7 +16,6 @@ Any programming language and technology (within reason) can be used to complete 
 Once completed, share a copy of the code with me (either as a GitHub repo or via their preferred means) and we will review it then all being well, arrange a suitable time for an initial phone interview. If he wants to share it with me directly, save you playing piggy in the middle that is equally fine.
 
 
-
 ## Setup
 
     gem install bundler
@@ -23,7 +23,19 @@ Once completed, share a copy of the code with me (either as a GitHub repo or via
 
 ## test
 
-rspec
+    rspec
 
 ## run
 
+    ./bin/find_favourite_language
+
+
+## Going forward
+
+Ideas to extent
+
+* get percentage breakdown of langs
+* get more detailed breakdown via kb of code in repo for each lang (repos/:user/:repo/languages)
+* Add sinatra and push to heroku for web based fun
+  * graph percentage breakdown
+* add links to gh
