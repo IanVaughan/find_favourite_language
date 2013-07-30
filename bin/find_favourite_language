@@ -8,5 +8,3 @@ input = gets.chomp
 
 gh = CalcData.new(input).favourite_language
 puts gh
-#gh.langs(@name, 'app_conf')
-

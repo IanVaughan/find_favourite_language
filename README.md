@@ -25,17 +25,32 @@ Once completed, share a copy of the code with me (either as a GitHub repo or via
 
     rspec
 
-## run
+## Run
+
+Command line :
 
     ./bin/find_favourite_language
+
+Web App
+
+    rackup
+
+or
+
+    ruby app.rb
+
+
+### Heroku
+
+This is currently also running on heroku here : http://young-garden-9865.herokuapp.com/
 
 
 ## Going forward
 
-Ideas to extent
+Ideas to extend
 
 * get percentage breakdown of langs
+* graph percentage breakdown
 * get more detailed breakdown via kb of code in repo for each lang (repos/:user/:repo/languages)
-* Add sinatra and push to heroku for web based fun
-  * graph percentage breakdown
-* add links to gh
+* add links to gh (in web app)
+* style webapp!
