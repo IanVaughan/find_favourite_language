@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+
+require './lib/calc_data'
+
+puts "GitHub Username : "
+STDOUT.flush
+input = gets.chomp
+
+gh = CalcData.new(input).favourite_language
+puts gh
+#gh.langs(@name, 'app_conf')
+
